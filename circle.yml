@@ -9,5 +9,5 @@ dependencies:
 test:
   override:
     - cd nc; bash test.sh
-    - cd ../telnet; bash test.sh
-    - cd ../lynx; bash test.sh
+    - cd telnet; bash test.sh
+    - cd lynx; bash test.sh
