@@ -3,7 +3,7 @@
 docker build -t telnet .
 OUTPUT=$(docker run nc 2>&1)
 
-if [[ "$OUTPUT" == *"BusyBox v1.22.1 (2014-05-22 23:22:11 UTC) multi-call binary."* ]];
+if [[ "$OUTPUT" == *"BusyBox v1.23.2 (2015-04-24 15:46:01 GMT) multi-call binary."* ]];
 then
 echo "Success"
 exit 0
