@@ -11,3 +11,4 @@ test:
     - cd nc; bash test.sh
     - cd telnet; bash test.sh
     - cd lynx; bash test.sh
+    - cd htop; bash test.sh
