@@ -1,0 +1,11 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker pull busybox
+
+test:
+  override:
+    - cd nc; sh test.sh
