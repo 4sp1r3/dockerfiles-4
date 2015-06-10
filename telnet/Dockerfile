@@ -1,0 +1,4 @@
+FROM busybox
+MAINTAINER Mike Splain <mike.splain@gmail.com>
+
+ENTRYPOINT ["telnet"]
