@@ -12,5 +12,6 @@ test:
     - cd telnet; bash test.sh
     - cd lynx; bash test.sh
     - cd htop; bash test.sh
+    - cd iftop; bash test.sh
     - cd ruby; bash test.sh
     - cd irb; bash test.sh
