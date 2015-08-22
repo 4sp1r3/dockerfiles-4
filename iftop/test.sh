@@ -3,7 +3,7 @@
 docker build -t iftop .
 OUTPUT=$(docker run iftop --help 2>&1)
 
-if [[ "$OUTPUT" == *"htop 1.0.3 - (C) 2004-2012 Hisham Muhammad"* ]];
+if [[ "$OUTPUT" == *"iftop, version 0.17"* ]];
 then
 echo "Success"
 exit 0
