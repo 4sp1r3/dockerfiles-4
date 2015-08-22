@@ -3,7 +3,7 @@ cd ../ruby
 docker build -t mikesplain/ruby .
 
 cd ../irb
-docke rbuild -t irb .
+docker build -t irb .
 
 OUTPUT=$(docker run irb -v 2>&1)
 
