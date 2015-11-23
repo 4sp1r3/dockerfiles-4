@@ -1,5 +1,5 @@
 Mike's Dockerfiles
 ==================
-[![Circle CI](https://circleci.com/gh/mikesplain/dockerfiles.svg?style=svg)](https://circleci.com/gh/mikesplain/dockerfiles)
+[![Circle CI](https://img.shields.io/circleci/project/mikesplain/dockerfiles.svg)](https://circleci.com/gh/mikesplain/dockerfiles)
 
 The containers here are simple tools that make docker and coreos development faster.
