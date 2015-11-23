@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker build -t curl .
-OUTPUT=$(docker run curl 2>&1)
+OUTPUT=$(docker run curl --version 2>&1)
 
 if [[ "$OUTPUT" == *"curl 7.42.1 (x86_64-alpine-linux-musl)"* ]];
 then
