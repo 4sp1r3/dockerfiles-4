@@ -1,5 +1,5 @@
 FROM alpine
 MAINTAINER Mike Splain <mike.splain@gmail.com>
-RUN apk --update add htop
+RUN apk --update add curl
 
-ENTRYPOINT ["htop"]
+ENTRYPOINT ["nc"]

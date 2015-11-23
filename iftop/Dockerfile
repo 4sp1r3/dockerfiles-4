@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine
+FROM alpine
 MAINTAINER Mike Splain <mike.splain@gmail.com>
 RUN apk --update add iftop
 
