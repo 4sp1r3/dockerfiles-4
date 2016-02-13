@@ -3,7 +3,7 @@
 docker build -t ruby .
 OUTPUT=$(docker run ruby -v 2>&1)
 
-if [[ "$OUTPUT" == *"ruby 2.2.2p95"* ]];
+if [[ "$OUTPUT" == *"ruby 2.2.4p230"* ]];
 then
 echo "Success"
 exit 0

@@ -18,3 +18,4 @@ test:
     - cd tor-relay; ./test.sh
     - cd curl; ./test.sh
     - cd ubuntu; ./test.sh
+    - cd launchpad; ./test.sh

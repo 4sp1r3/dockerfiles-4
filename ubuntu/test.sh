@@ -1,5 +1,5 @@
-docker build -t ubuntu .
-OUTPUT=$(docker run ubuntu cat /etc/lsb_release 2>&1)
+docker build -t mikesplain/ubuntu .
+OUTPUT=$(docker run mikesplain/ubuntu cat /etc/lsb-release 2>&1)
 
 if [[ "$OUTPUT" == *"trusty"* ]];
 then
