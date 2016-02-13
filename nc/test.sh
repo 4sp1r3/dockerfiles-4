@@ -3,7 +3,7 @@
 docker build -t nc .
 OUTPUT=$(docker run nc 2>&1)
 
-if [[ "$OUTPUT" == *"BusyBox v1.23.2 (2015-04-24 15:46:01 GMT) multi-call binary."* ]];
+if [[ "$OUTPUT" == *"BusyBox v1.24.1 (2015-12-16 08:00:02 GMT) multi-call binary."* ]];
 then
 echo "Success"
 exit 0
